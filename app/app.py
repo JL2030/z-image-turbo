@@ -80,7 +80,7 @@ def create_demo():
     """Create the Gradio interface."""
     import gradio as gr
 
-    with gr.Blocks(title="Z-Image-Turbo", theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title="Z-Image-Turbo") as demo:
         gr.Markdown("# Z-Image-Turbo")
         gr.Markdown("Fast image generation with the Z-Image-Turbo model")
 
