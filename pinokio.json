@@ -1,0 +1,13 @@
+{
+  "name": "Z-Image-Turbo",
+  "version": "1.0.0",
+  "description": "Simple Gradio web UI for generating images with Tongyi-MAI/Z-Image-Turbo",
+  "author": "pinokiofactory",
+  "license": "MIT",
+  "app": {
+    "app.py": {
+      "entry": "app.py",
+      "port": 7860
+    }
+  }
+}
